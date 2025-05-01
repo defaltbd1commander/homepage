@@ -1,0 +1,14 @@
+a {
+  text-decoration:none;
+    color: #000000;
+}
+td {
+font-size: 24pt;
+font-family: Impact;
+font-weight: 100;
+font-stretch: ultra-expanded;
+}
+.banner {
+		background-color: #5b3c20;
+}
+.konata {margin-left: 1050pt; margin-top: -725pt; z-index: 10}
