@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Servers</title>
+	<script src="http://www.youtube.com/iframe_api"></script>
+	<script>
+		var tag = document.createElement('script');
+		tag.src = "http://www.youtube.com/iframe_api";
+
+		var fScriptTag = document.getElementsByTagName('script')[0];
+		fScriptTag.parentNode.insertBefore(tag, fScriptTag);
+
+		var player;
+		function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player', {
+           height: '0',
+           width: '0',
+           videoId: 'U7_TkMC9ubQ',
+           playerVars:{'mute' : 0,'autoplay':1},
+           events: {  }
+        });
+    }
+	</script>		
+	</head>
+	<body bgcolor="#000000">
+					<a href="homepage.html">
+				<img src="Back3.gif" align=right width="20%" height="20%"></a></img>
+		<p><span style="color: #ffffff">SCP Secret Laboratory:</span> <a href="server_casperr.html">Server by Casperr (Legacy)</a>
+		<p><span style="color: #ffffff">Minecraft:</span> <a href="server_minecraft.html">Technomagic 1.7.10</a>
+				<iframe id="player" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Half Life SFX - Время выбирать" width="0" height="0" src="https://www.youtube.com/embed/U7_TkMC9ubQ?mute=0&amp;autoplay=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ffauux.neocities.org&amp;widgetid=1&amp;forigin=https%3A%2F%2Ffauux.neocities.org%2FLove&amp;aoriginsup=1&amp;gporigin=https%3A%2F%2Ffauux.neocities.org%2F&amp;vf=1"></iframe>		
+	</body>
+</html>
